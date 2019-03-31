@@ -1,0 +1,125 @@
+@import url('bootstrap.min.css');
+@font-face {
+    font-family: 'digital-7';
+    src: url(../fonts/digital-7.ttf) format('truetype');
+}
+
+* {
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer */
+    -khtml-user-select: none;
+    /* KHTML browsers (e.g. Konqueror) */
+    -webkit-user-select: none;
+    /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none;
+    /* Disable Android and iOS callouts*/
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif !important;
+    background-color: #284ea2;
+}
+
+.board-container {
+    background: #284ea2;
+    margin: 50px;
+    padding: 30px;
+    border: 7px solid #fff;
+}
+
+.board-container b {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.row.fl>div>b {
+    padding-top: 0px;
+}
+
+.display-1,
+.display-2,
+.display-3 {
+    position: relative;
+    width: 180px;
+    height: 150px;
+    margin: 10px;
+    padding-right: 15px;
+    background: #000;
+    color: #ee2126;
+    font-size: 160px;
+    line-height: 153px;
+    text-align: right;
+    font-family: 'digital-7', Helvetica, sans-serif;
+}
+
+.display-4,
+.display-5,
+.display-6 {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    background: #000;
+    margin: 10px;
+}
+
+.row:first-of-type {
+    margin-bottom: 50px;
+}
+
+.fl>div>div,
+.row.fl>div>b {
+    float: left;
+}
+
+.ball {
+    width: 35px;
+    height: 35px;
+    margin: 7px;
+    float: left;
+    background: #ee2126;
+    border-radius: 50%;
+}
+
+.ap1,
+.ap2,
+.ap3 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: -35px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif !important;
+    font-size: 43px;
+    line-height: 35px;
+    background: #1f3d7d;
+    color: #3b66c5;
+    padding-right: 3px;
+}
+
+.ap1:hover,
+.ap2:hover,
+.ap3:hover,
+.am1:hover,
+.am2:hover,
+.am3:hover {
+    background: #112858;
+    cursor: pointer;
+}
+
+.am1,
+.am2,
+.am3 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: -35px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif !important;
+    font-size: 43px;
+    line-height: 31px;
+    background: #1f3d7d;
+    color: #3b66c5;
+    padding-right: 9px;
+    top: 35px;
+}

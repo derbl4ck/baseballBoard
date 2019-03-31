@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Baseball Board</title>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+
+<body>
+    <div class="board-container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <b>HOME</b>
+                <div class="display-1">
+                    <div class="ap1">+</div>
+                    <div class="am1">-</div>
+                    <span>0</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="display-2">
+                    <div class="ap2">+</div>
+                    <div class="am2">-</div>
+                    <span>0</span>
+                </div>
+                <b>INNING</b>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <b>GUEST</b>
+                <div class="display-3">
+                    <div class="ap3">+</div>
+                    <div class="am3">-</div>
+                    <span>0</span>
+                </div>
+            </div>
+        </div>
+        <div class="row fl">
+            <div class="col-md-4 col-sm-4">
+                <b>BALL</b>
+                <div class="display-4"></div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <b>STRIKE</b>
+                <div class="display-5"></div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <b>OUT</b>
+                <div class="display-6"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

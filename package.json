@@ -1,0 +1,19 @@
+{
+    "name": "baseballboard",
+    "version": "1.0.0",
+    "description": "A simple dashboard to show the score of a baseball game",
+    "author": "Lukas 'derbl4ck' Berwanger",
+    "contributors": [],
+    "license": "MIT",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "4.16.3",
+        "socket.io": "2.1.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/derbl4ck/baseballBoard.git"
+    }
+}
