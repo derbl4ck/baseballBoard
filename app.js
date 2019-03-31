@@ -22,6 +22,10 @@ server.listen(port, () => {
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
 io.on('connection', (socket) => {
     users++;
     console.log(`[Info] socket ${socket.id} connected (current Users: ${users})`);

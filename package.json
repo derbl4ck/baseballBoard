@@ -5,6 +5,7 @@
     "author": "Lukas 'derbl4ck' Berwanger",
     "contributors": [],
     "license": "MIT",
+    "bin": "app.js",
     "scripts": {
         "start": "node app.js"
     },
@@ -15,5 +16,15 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/derbl4ck/baseballBoard.git"
+    },
+    "pkg": {
+        "assets": [
+            "public/**/*"
+        ],
+        "targets": [
+            "node10-linux-x64",
+            "node10-macos-x64",
+            "node10-win-x64"
+        ]
     }
 }
